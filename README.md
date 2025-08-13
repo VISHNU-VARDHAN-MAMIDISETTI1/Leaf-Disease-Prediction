@@ -39,7 +39,7 @@ Edit
 
 ### 1️ Clone the repository
 ```bash
-git clone https://github.com/your-username/plant-disease-classification.git
+git clone https://github.com/VISHNU-VARDHAN-MAMIDISETTI1/plant-disease-classification.git
 cd plant-disease-classification
 2️ Install dependencies
 bash
