@@ -1,17 +1,17 @@
-# 🌱 Plant Disease Classification App
+# Plant Disease Classification App
 
 A **Streamlit web application** that uses **deep learning models** to detect and classify plant diseases from leaf images.  
 
 Currently supported plants:
 
-- 🥔 **Potato**: Early Blight, Late Blight, Healthy  
-- 🍅 **Tomato**: 9 common tomato diseases + Healthy  
+-  **Potato**: Early Blight, Late Blight, Healthy  
+-  **Tomato**: 9 common tomato diseases + Healthy  
 
 This tool helps farmers, researchers, and agricultural specialists **quickly identify plant diseases** for better crop management.
 
 ---
 
-## 🚀 Features
+##  Features
 - **Upload an image** of a potato or tomato leaf.
 - **Real-time prediction** using trained TensorFlow models.
 - **Confidence score** for each prediction.
@@ -19,7 +19,7 @@ This tool helps farmers, researchers, and agricultural specialists **quickly ide
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ├── app.py # Main Streamlit application
 ├── Saved_models/
 │ ├── model_v1_potato.h5 # Potato disease model
@@ -35,23 +35,23 @@ Edit
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 ```bash
 git clone https://github.com/your-username/plant-disease-classification.git
 cd plant-disease-classification
-2️⃣ Install dependencies
+2️ Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3️⃣ Run the Streamlit app
+3️ Run the Streamlit app
 bash
 Copy
 Edit
 streamlit run app.py
-📊 Models Used
+ Models Used
 Potato Model
 Input Size: 256x256 RGB
 
@@ -88,7 +88,7 @@ Tomato__Tomato_mosaic_virus
 
 Tomato_healthy
 
-🛠 How It Works
+How It Works
 Image Upload: User uploads a leaf image.
 
 Preprocessing:
@@ -103,7 +103,7 @@ Prediction: Passes through the corresponding trained TensorFlow model.
 
 Output: Displays predicted class & confidence score.
 
-🖼 Example Output
+Example Output
 Uploaded Image:
 
 Prediction:
@@ -112,7 +112,7 @@ Class: Potato__Early_blight
 
 Confidence: 98.45%
 
-📚 Tech Stack
+Tech Stack
 Python 3
 
 TensorFlow / Keras
@@ -123,7 +123,7 @@ PIL
 
 NumPy
 
-📌 Future Improvements
+Future Improvements
 Add support for more plant species.
 
 Deploy to Streamlit Cloud, Heroku, or AWS.
